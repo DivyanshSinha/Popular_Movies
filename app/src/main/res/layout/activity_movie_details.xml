@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".movieDetails"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            tools:text="The Witcher"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:id="@+id/title_text_view"
+            android:textColor="@color/Silver"
+            android:background="@color/Black"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_margin="25dp"
+                android:id="@+id/movie_poster"
+                tools:src="@color/Silver"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="25/5/2019"
+                    android:textSize="30sp"
+                    android:id="@+id/release_date"
+                    android:textColor="@color/Black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="18/25"
+                    android:textSize="30sp"
+                    android:id="@+id/rating"
+                    android:textColor="@color/Black"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Toss a coin to your witcher o valey of plenty o o o , Toss a coin to your witcher oo valey of Plenty"
+            android:textSize="25sp"
+            android:id="@+id/description"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:textColor="@color/Black"/>
+
+    </LinearLayout>
+
+</ScrollView>
+

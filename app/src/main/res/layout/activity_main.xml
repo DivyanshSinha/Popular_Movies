@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/Black">
+
+    <GridView
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:id="@+id/gridview"
+        android:numColumns="auto_fit"
+        android:adjustViewBounds="true"/>
+
+    <TextView
+        android:id="@+id/check_internet_textview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textSize="55sp"
+        android:textStyle="bold"
+        android:textColor="@color/Silver"
+        tools:text="@string/please_check_connection"
+        android:visibility="invisible"/>
+
+</RelativeLayout>
+
+
